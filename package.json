@@ -1,0 +1,26 @@
+{
+  "name": "ink-scrollbar",
+  "version": "0.1.0",
+  "description": "Scrollbar Component for Ink",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaggeorge/ink-scrollbar.git"
+  },
+  "keywords": [
+    "ink",
+    "scrollbar",
+    "component",
+    "scroll",
+    "list"
+  ],
+  "author": "George Karagkiaouris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karaggeorge/ink-scrollbar/issues"
+  },
+  "homepage": "https://github.com/karaggeorge/ink-scrollbar#readme"
+}
