@@ -4,6 +4,11 @@
 
 Useful if you want to show a big list of items and don't want to display all of them at the same time.
 
+Demo
+---
+
+![Demo Image](./media/demo.gif)
+
 Install
 ---
 
