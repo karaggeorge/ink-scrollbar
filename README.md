@@ -71,6 +71,20 @@ const unmount = render(<Example/>);
 
 ### Scrollbar
 
+#### show
+
+Type: `Number`
+Default: `1`
+
+Amount of items to show. If this is larger or equal to the amount of children given, all the items will be displayed and the scrollbar will not be rendered.
+
+#### current
+
+Type: `Number`
+Default: `0`
+
+The index of the currently selected item. This item will always be visible.
+
 #### thumbCharacter
 
 Type: `string`
@@ -84,14 +98,6 @@ Type: `Number`
 Default: `1`
 
 Amount of space between the items and the scrollbar.
-
-#### show
-
-Type: `Number`
-Default: `1`
-
-Amount of items to show. If this is larger or equal to the amount of children given, all the items will be displayed and the scrollbar will not be rendered.
-
 
 #### highlight
 Type: `Boolean | Object`
