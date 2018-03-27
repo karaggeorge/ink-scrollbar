@@ -7,7 +7,13 @@ Useful if you want to show a big list of items and don't want to display all of 
 Demo
 ---
 
+Normal scrolling (code in the example below):
+
 ![Demo Image](./media/demo.gif)
+
+Adding items to the list:
+
+![Demo Image](./media/demo2.gif)
 
 Install
 ---
