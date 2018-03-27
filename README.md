@@ -35,6 +35,14 @@ class Example extends Component {
     this.getCursor = this.getCursor.bind(this);
   }
 
+  render() {
+    return (
+      <Scrollbar show={5} current={this.state.cursor} padding={3} highlight>
+        {items.map(i => <Text>{this.getCursor(i)}{i}</Text>)}
+      </Scrollbar>
+    );
+  }
+
   componentDidMount() {
     this.timer = setInterval(() => {
       this.setState({cursor: (this.state.cursor + 1) % items.length});
@@ -52,14 +60,6 @@ class Example extends Component {
     } else {
       return '\u00A0\u00A0';
     }
-  }
-
-  render() {
-    return (
-      <Scrollbar show={5} current={this.state.cursor} padding={3} highlight>
-        {items.map(i => <Text>{this.getCursor(i)}{i}</Text>)}
-      </Scrollbar>
-    );
   }
 }
 
