@@ -4,6 +4,8 @@
 
 Useful if you want to show a big list of items and don't want to display all of them at the same time.
 
+Currently works with simple (single-line) elements. Currently working on rewriting to work with any type of children passed
+
 Demo
 ---
 
